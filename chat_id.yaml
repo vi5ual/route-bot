@@ -1,0 +1,26 @@
+- chat_id: 7067142838
+  title: Private Chat
+  type: User
+  username: '@pricescantrading_bot'
+- chat_id: 7290150277
+  title: Private Chat
+  type: User
+  username: '@futuresvolumetrading_bot'
+- chat_id: 7668255798
+  title: Private Chat
+  type: User
+  username: '@spotvolumetrading_bot'
+- chat_id: 7617128583
+  title: Private Chat
+  type: User
+  username: '@spotpumptrading_bot'
+- chat_id: 8045694950
+  title: Private Chat
+  type: User
+  username: '@liquidationstrading_bot'
+- chat_id: 7602722411
+  title: Private Chat
+  type: User
+  username: '@openinteresttrading_bot'
+
+ 

@@ -1,0 +1,47 @@
+# config/config.yaml
+
+api_id:       29282645
+api_hash:    "ca1d10d469d10d787e18b256d375cd3e"
+phone_number: "+380504444542"
+session_name: "route_bot"
+
+# ID группы, в которой у вас forum-канал/темы
+group_with_threads: -1002611182922
+
+# Список маршрутов: откуда (бот-источник) → куда (тема в группе)
+routes:
+  - source:
+      username: "@pricescantrading_bot"
+      chat_id:  7067142838
+    target_chat: -1002611182922
+    thread_id:   2   # "PRICE SCAN"
+
+  - source:
+      username: "@futuresvolumetrading_bot"
+      chat_id:  7290150277
+    target_chat: -1002611182922
+    thread_id:   8   # "FUTURES VOLUME TRADING"
+
+  - source:
+      username: "@spotvolumetrading_bot"
+      chat_id:  7668255798
+    target_chat: -1002611182922
+    thread_id:   7   # "SPOT VOLUME TRADING"
+
+  - source:
+      username: "@spotpumptrading_bot"
+      chat_id:  7617128583
+    target_chat: -1002611182922
+    thread_id:   4   # "SPOT PUMP TRADING"
+
+  - source:
+      username: "@liquidationstrading_bot"
+      chat_id:  8045694950
+    target_chat: -1002611182922
+    thread_id:   5   # "LIQUIDATION TRADING"
+
+  - source:
+      username: "@openinteresttrading_bot"
+      chat_id:  7602722411
+    target_chat: -1002611182922
+    thread_id:   6   # "OPEN INTEREST TRADING"
