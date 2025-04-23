@@ -5,6 +5,8 @@ api_hash:    "ca1d10d469d10d787e18b256d375cd3e"
 phone_number: "+380504444542"
 session_name: "route_bot"
 
+mode: "copy"  # или "forward"
+
 # ID группы, в которой у вас forum-канал/темы
 group_with_threads: -1002447090280
 

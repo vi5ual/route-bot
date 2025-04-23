@@ -16,7 +16,7 @@ async def main():
     print("[TELEGRAM] Client started")
 
     # Никаких join'ов — только запуск пересылки
-    await setup_forwarding(client, config["routes"])
+    await setup_forwarding(client, config["routes"], mode=config.get("mode", "copy"))
     print(f"[MAIN] Listening with {len(config['routes'])} routes...")
 
     await client.run_until_disconnected()
