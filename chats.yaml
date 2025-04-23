@@ -30,20 +30,60 @@
   title: TRADE Биткоин Адепт
   type: Channel
   username: null
+- chat_id: 1175934497
+  title: Coindar на русском
+  type: Channel
+  username: '@coindar_ru'
+- chat_id: 1139807011
+  title: 3Commas Комьюнити
+  type: Channel
+  username: '@commaschatru'
+- chat_id: 1896345357
+  title: Nakamoto Trades | Крипта, трейдинг, сигналы
+  type: Channel
+  username: null
+- chat_id: 7602722411
+  title: Private Chat
+  type: User
+  username: '@openinteresttrading_bot'
+- chat_id: 777000
+  title: Private Chat
+  type: User
+  username: null
+- chat_id: 1308785417
+  title: headlines
+  type: Channel
+  username: '@headlines_for_traders'
+- chat_id: 1182619094
+  title: Airdrop Finder
+  type: Channel
+  username: '@airdropfind'
+- chat_id: 7417231533
+  title: Private Chat
+  type: User
+  username: '@ackinacki_bot'
+- chat_id: 1132611527
+  title: Coin Post – Деньги, инвестиции, биткоин
+  type: Channel
+  username: '@Coin_Post'
+- chat_id: 1687954051
+  title: Crypto QuickNet⚡️
+  type: Channel
+  username: '@cryptoquicknetuakh'
+- chat_id: 2477065710
+  title: SoSoValue News Bot
+  type: Channel
+  username: '@sosovaluenewsbot'
 - chat_id: 1402256862
   title: Hyperliquid Big Trades Feed
   type: Channel
   username: '@hyperliquid_feed'
-- chat_id: 1346855510
-  title: ДРУЗЬЯ САТОШИ
+- chat_id: 1455766467
+  title: Breakout Crypto
   type: Channel
-  username: '@satoshifriends'
-- chat_id: 1800752530
-  title: Скальпинг с Андреем Павловым
-  type: Channel
-  username: null
-- chat_id: 1500548951
-  title: 𝗖𝗥𝗬𝗣𝗧𝗢 𝗠𝗔𝗠𝗢𝗡𝗧
+  username: '@breakoutcryptos'
+- chat_id: 1888677534
+  title: Григорий Полежаев | Чат трейдеров
   type: Channel
   username: null
 - chat_id: 6562187588
@@ -54,122 +94,750 @@
   title: Whale Alert
   type: Channel
   username: '@whale_alert_io'
-- chat_id: 1700967192
-  title: Теория Вероятностей
+- chat_id: 1346855510
+  title: ДРУЗЬЯ САТОШИ
   type: Channel
-  username: null
-- chat_id: 7602722411
-  title: Private Chat
-  type: User
-  username: '@openinteresttrading_bot'
-- chat_id: 2377672283
-  title: Trade Hunters канал
+  username: '@satoshifriends'
+- chat_id: 1291483806
+  title: Торговые вероятности (SoloTrade)
   type: Channel
-  username: null
-- chat_id: 1775749622
-  title: Crypto Falcon
-  type: Channel
-  username: '@falconinvestors'
-- chat_id: 1182619094
-  title: Airdrop Finder
-  type: Channel
-  username: '@airdropfind'
-- chat_id: 1799349201
-  title: KikKripto Portfolio
-  type: Channel
-  username: null
-- chat_id: 2477065710
-  title: SoSoValue News Bot
-  type: Channel
-  username: '@sosovaluenewsbot'
-- chat_id: 1494879399
-  title: Мысли Семенчука
-  type: Channel
-  username: '@semenchuk'
-- chat_id: 1951907006
-  title: Tyler Durden
-  type: Channel
-  username: '@tonkingsquad'
-- chat_id: 1163213919
-  title: Богатейший ДИ
-  type: Channel
-  username: '@richdi'
-- chat_id: 2042101409
-  title: TONlines – News
-  type: Channel
-  username: null
-- chat_id: 1127275147
-  title: SuperVerse
-  type: Channel
-  username: null
+  username: '@solotradings'
 - chat_id: 7952250753
   title: Private Chat
   type: User
   username: '@futurespumptrading_bot'
-- chat_id: 1428750135
-  title: inittowinit
-  type: Channel
-  username: '@inittowinit01'
-- chat_id: 1650437070
-  title: Crypto Lumens
-  type: Channel
-  username: '@FlareNetworkRu'
-- chat_id: 2414346710
-  title: TON GIFTS
-  type: Channel
-  username: '@protontg'
-- chat_id: 1151808092
-  title: The Crypto Express
-  type: Channel
-  username: '@thecryptoexpress'
-- chat_id: 1368024716
-  title: Day CapitaL
-  type: Channel
-  username: '@daycapital3'
-- chat_id: 1389304944
-  title: Crypto Daily – биткоин, криптовалюта
+- chat_id: 2042101409
+  title: TONlines – News
   type: Channel
   username: null
-- chat_id: 1820442890
-  title: Lost Dogs Co Eng
+- chat_id: 1293588603
+  title: Private Chat
+  type: User
+  username: '@m01chatbot'
+- chat_id: 1127580919
+  title: Whale Sniper
   type: Channel
-  username: '@lostdogscoeng'
-- chat_id: 1422370788
-  title: AGE OF CRYPTO
+  username: '@WhaleSniper'
+- chat_id: 2006448338
+  title: Crypto Screeners/ Open Interest Alert🚨
   type: Channel
-  username: '@Age_of_Crypt'
-- chat_id: 1593088122
-  title: Money & Crypto News
+  username: '@oiscreener'
+- chat_id: 1153542953
+  title: Trade_Soul
   type: Channel
   username: null
-- chat_id: 1530509454
-  title: The Daily TON | Новости
+- chat_id: 1233043722
+  title: TON Community
   type: Channel
-  username: '@thedailytonrus'
-- chat_id: 1308785417
-  title: headlines
+  username: '@toncoin'
+- chat_id: 1277372114
+  title: 001k.Trade
   type: Channel
-  username: '@headlines_for_traders'
+  username: '@trade001k'
 - chat_id: 1350475252
   title: Crypto Insider
-  type: Channel
-  username: null
-- chat_id: 1244865539
-  title: Просто о сложном|CryptoScope
-  type: Channel
-  username: '@prosto_kripto'
-- chat_id: 1290061428
-  title: Mr Mozart
-  type: Channel
-  username: null
-- chat_id: 1312345502
-  title: Crypto VIP Signal
   type: Channel
   username: null
 - chat_id: 1285923132
   title: Cryptopolitan
   type: Channel
   username: '@CryptopolitanOfficial'
+- chat_id: 1650437070
+  title: Crypto Lumens
+  type: Channel
+  username: '@FlareNetworkRu'
+- chat_id: 1756820909
+  title: UPTrade | Александр Янковский
+  type: Channel
+  username: null
+- chat_id: 1000499465
+  title: ForkLog
+  type: Channel
+  username: '@forklog'
+- chat_id: 1800752530
+  title: Скальпинг с Андреем Павловым
+  type: Channel
+  username: null
+- chat_id: 1700967192
+  title: Теория Вероятностей
+  type: Channel
+  username: null
+- chat_id: 2021984947
+  title: САТОШИ NEWS
+  type: Channel
+  username: null
+- chat_id: 1329419841
+  title: BAZYLEV TRADER
+  type: Channel
+  username: '@BazaBitcoin'
+- chat_id: 1732968961
+  title: OperArepO
+  type: Channel
+  username: '@OperArepO'
+- chat_id: 2289627285
+  title: Popcorn Today 🍿
+  type: Channel
+  username: '@popcorn_today'
+- chat_id: 1775749622
+  title: Crypto Falcon
+  type: Channel
+  username: '@falconinvestors'
+- chat_id: 2228759744
+  title: Точно в цель | Инвестиции
+  type: Channel
+  username: null
+- chat_id: 1262300473
+  title: Blockchain Usa Official ( Binance ) 🐋
+  type: Channel
+  username: '@BlockchainOfficialBinance'
+- chat_id: 1293287526
+  title: Герман на блокчейне 🇪🇹
+  type: Channel
+  username: '@blockchaingerman'
+- chat_id: 2060552843
+  title: Hobby Crypto X
+  type: Channel
+  username: '@hobby_cryptoX'
+- chat_id: 1593088122
+  title: Money & Crypto News
+  type: Channel
+  username: null
+- chat_id: 1949247155
+  title: Fastex Exchange News
+  type: Channel
+  username: '@fastexexchange_news'
+- chat_id: 2377672283
+  title: Trade Hunters канал
+  type: Channel
+  username: null
+- chat_id: 1136501812
+  title: CRYPTO BULL
+  type: Channel
+  username: '@cryptobull_club'
+- chat_id: 2074578309
+  title: Bitget Wallet Indonesia Announcements
+  type: Channel
+  username: '@bitget_wallet_indonesia'
+- chat_id: 1428750135
+  title: inittowinit
+  type: Channel
+  username: '@inittowinit01'
+- chat_id: 1392170956
+  title: OKX Новости
+  type: Channel
+  username: '@okx_ru'
+- chat_id: 1192115186
+  title: MMarketmaker
+  type: Channel
+  username: null
+- chat_id: 1136434524
+  title: 3Commas Анонсы
+  type: Channel
+  username: '@commas_ru'
+- chat_id: 1862339704
+  title: Bitget Wallet Announcements
+  type: Channel
+  username: '@Bitget_Wallet_Announcement'
+- chat_id: 1651796228
+  title: Заметки криптоэнтузиаста
+  type: Channel
+  username: '@cryptoennotes'
+- chat_id: 1498073945
+  title: Startups & Ventures
+  type: Channel
+  username: null
+- chat_id: 1201452227
+  title: PRO CRYPTO TRADING
+  type: Channel
+  username: '@PROBTRADING'
+- chat_id: 1244865539
+  title: Просто о сложном|CryptoScope
+  type: Channel
+  username: '@prosto_kripto'
+- chat_id: 1704501466
+  title: Ai Agents Pad from Silicon Valley ENG CHANNEL
+  type: Channel
+  username: '@AAAPadSF'
+- chat_id: 2174452486
+  title: CHEATKOTT - Your Daily News
+  type: Channel
+  username: '@cheatkott'
+- chat_id: 1180245715
+  title: Крипто твиты
+  type: Channel
+  username: '@cryptotweet280'
+- chat_id: 1584766605
+  title: VENIVIDIVICI️
+  type: Channel
+  username: '@VENIVIDIVICIASHFXPRO'
+- chat_id: 1304417770
+  title: CryptoCommons 💎
+  type: Channel
+  username: '@cryptocommonz'
+- chat_id: 1797561573
+  title: Георгий Днище
+  type: Channel
+  username: '@geodnishe'
+- chat_id: 1308407014
+  title: Ripple XRP Channel (Новости рипл)
+  type: Channel
+  username: '@rippleweb'
+- chat_id: 1577682096
+  title: Хайдар Сабиев | Крипто Инсайдер
+  type: Channel
+  username: null
+- chat_id: 5247844575
+  title: Private Chat
+  type: User
+  username: '@gate_official_bot'
+- chat_id: 1290061428
+  title: Mr Mozart
+  type: Channel
+  username: null
+- chat_id: 2187280723
+  title: TrinityPAD Announcements
+  type: Channel
+  username: '@trinitypadann'
+- chat_id: 1132013128
+  title: Копеечка в кошельке
+  type: Channel
+  username: '@kopeechkav'
+- chat_id: 1665025465
+  title: SunTap Community
+  type: Channel
+  username: '@suntapontron'
+- chat_id: 1840752716
+  title: WGT DAO
+  type: Channel
+  username: '@WGTDAO'
+- chat_id: 2188840862
+  title: $NOTAI Announcements
+  type: Channel
+  username: '@NOTAI_ann'
+- chat_id: 1356687400
+  title: Fasttoken News
+  type: Channel
+  username: '@fasttoken_news'
+- chat_id: 1799349201
+  title: KikKripto Portfolio
+  type: Channel
+  username: null
+- chat_id: 2096967905
+  title: Elderglade Announcements 🦊
+  type: Channel
+  username: '@eldergladenews'
+- chat_id: 1321981396
+  title: CRYPTUS MEDIA
+  type: Channel
+  username: '@CRYPTUS_MEDIA'
+- chat_id: 1143184637
+  title: Алексей Руденко | Криптоинвестор
+  type: Channel
+  username: '@AlexRich2018'
+- chat_id: 1422370788
+  title: AGE OF CRYPTO
+  type: Channel
+  username: '@Age_of_Crypt'
+- chat_id: 2290952554
+  title: Sticker Community
+  type: Channel
+  username: '@sticker_community'
+- chat_id: 1260376173
+  title: Bitget Announcements
+  type: Channel
+  username: '@Bitget_Announcements'
+- chat_id: 1410449050
+  title: Rose Paid Crypto Free ™🔒
+  type: Channel
+  username: null
+- chat_id: 1274514549
+  title: Профессор Альтов 🥸
+  type: Channel
+  username: '@profaltov'
+- chat_id: 1151808092
+  title: The Crypto Express
+  type: Channel
+  username: '@thecryptoexpress'
+- chat_id: 1389304944
+  title: Crypto Daily – биткоин, криптовалюта
+  type: Channel
+  username: null
+- chat_id: 2003787651
+  title: Robinhood PRIME
+  type: Channel
+  username: null
+- chat_id: 7290150277
+  title: Private Chat
+  type: User
+  username: '@futuresvolumetrading_bot'
+- chat_id: 2447090280
+  title: SupplierBot
+  type: Channel
+  username: null
+- chat_id: 2071681053
+  title: Crypto Fomo
+  type: Channel
+  username: '@crypto_gst'
+- chat_id: 2112951736
+  title: Newcoin - Возможности крипты
+  type: Channel
+  username: '@newcoinopss'
+- chat_id: 2140267755
+  title: PRO BLOCKCHAIN SQUAD
+  type: Channel
+  username: '@PROBLOCKCHAINSQUAD'
+- chat_id: 1131371900
+  title: CoinTrendz.com
+  type: Channel
+  username: '@cointrendz'
+- chat_id: 1592181626
+  title: Solidus Ai Tech ANNOUNCEMENTS
+  type: Channel
+  username: '@solidusaitech'
+- chat_id: 2039438207
+  title: 'Blum: All Crypto – One App'
+  type: Channel
+  username: '@blumcrypto'
+- chat_id: 1500548951
+  title: 𝗖𝗥𝗬𝗣𝗧𝗢 𝗠𝗔𝗠𝗢𝗡𝗧
+  type: Channel
+  username: null
+- chat_id: 2204597790
+  title: VOOI Announcements
+  type: Channel
+  username: '@vooi_app'
+- chat_id: 1494879399
+  title: Мысли Семенчука
+  type: Channel
+  username: '@semenchuk'
+- chat_id: 1892053665
+  title: AirdropHunter (EN)
+  type: Channel
+  username: '@airdrop_hunter_en'
+- chat_id: 1934789667
+  title: AirdropHunter (CIS)
+  type: Channel
+  username: '@airdrop_hunter_public'
+- chat_id: 2117839753
+  title: Прометей
+  type: Channel
+  username: null
+- chat_id: 1382986975
+  title: The Bull
+  type: Channel
+  username: '@thebull_crypto'
+- chat_id: 1068404692
+  title: Private Chat
+  type: User
+  username: '@alex_gramm'
+- chat_id: 1111607220
+  title: Pro Blockchain
+  type: Channel
+  username: '@Pro_Blockchain'
+- chat_id: 7307587940
+  title: Private Chat
+  type: User
+  username: '@SynQuestBot'
+- chat_id: 1735416346
+  title: Евгений Самохин | CryptoUP
+  type: Channel
+  username: '@EScryptoUP'
+- chat_id: 1312345502
+  title: Crypto VIP Signal
+  type: Channel
+  username: null
+- chat_id: 1392225661
+  title: White Bulls 🇺🇦💪
+  type: Channel
+  username: null
+- chat_id: 8045694950
+  title: Private Chat
+  type: User
+  username: '@liquidationstrading_bot'
+- chat_id: 4745032515
+  title: SupplierBot
+  type: Chat
+  username: null
+- chat_id: 1584009696
+  title: Сигналы от Михалыча
+  type: Channel
+  username: '@Crypta_Mihalicha'
+- chat_id: 1301125719
+  title: Apollo Crypto
+  type: Channel
+  username: '@apollocrypto'
+- chat_id: 1247406490
+  title: Crypto Insider Signals
+  type: Channel
+  username: null
+- chat_id: 1793290375
+  title: ChainGPT Official Announcements Channel
+  type: Channel
+  username: '@ChainGPTNews'
+- chat_id: 1548775009
+  title: Tradoor.io News - Trade crypto like a legend
+  type: Channel
+  username: '@tradoor_io'
+- chat_id: 1336105016
+  title: Типичный Инвестор
+  type: Channel
+  username: '@eduardinvest'
+- chat_id: 1146915409
+  title: Binance Announcements
+  type: Channel
+  username: '@binance_announcements'
+- chat_id: 1579620324
+  title: TON Community RUS
+  type: Channel
+  username: '@toncoin_rus'
+- chat_id: 1183107394
+  title: Whale.Guru
+  type: Channel
+  username: '@WhaleGuruNews'
+- chat_id: 1063552156
+  title: БитЛента 🌲🪙⚡️ Вечный Восходл Души! サトし なカモと
+  type: Channel
+  username: '@BitLenta'
+- chat_id: 1497180783
+  title: GT Protocol Announcements Channel
+  type: Channel
+  username: '@GTProtocolNews'
+- chat_id: 1967795413
+  title: Trending Apps
+  type: Channel
+  username: null
+- chat_id: 1678231536
+  title: BitLord
+  type: Channel
+  username: null
+- chat_id: 1914837208
+  title: 'DeGuard | Privacy based on #web3'
+  type: Channel
+  username: '@DeGuardVPN'
+- chat_id: 2144449395
+  title: W-Community
+  type: Channel
+  username: '@w_community'
+- chat_id: 1435570463
+  title: Профессор Клинков
+  type: Channel
+  username: '@professorklinkov'
+- chat_id: 2029858040
+  title: TON WORLD | Tyler 🧼🥊
+  type: Channel
+  username: '@tonworldru'
+- chat_id: 1820442890
+  title: Lost Dogs Co Eng
+  type: Channel
+  username: '@lostdogscoeng'
+- chat_id: 1995311622
+  title: ИМПЕРИЯ ПАВЛОВА
+  type: Channel
+  username: null
+- chat_id: 1373275084
+  title: БИТКОИН Адепт
+  type: Channel
+  username: '@bitcoinadept'
+- chat_id: 2050128428
+  title: Cartel Solana
+  type: Channel
+  username: '@crlsol'
+- chat_id: 1507605936
+  title: 'Эра Перемен: Инвестиционно-аналитическое агентство'
+  type: Channel
+  username: '@eraperemenfinans'
+- chat_id: 2167851784
+  title: Farm Frens (Frencoin) 📣 News
+  type: Channel
+  username: '@farmfrens'
+- chat_id: 1341739006
+  title: XDAO | Official channel 💠
+  type: Channel
+  username: '@xdaoapp'
+- chat_id: 1231880494
+  title: Макс торгует криптой
+  type: Channel
+  username: null
+- chat_id: 1808847771
+  title: Обучение Pifagor
+  type: Channel
+  username: null
+- chat_id: 2330014279
+  title: CROSS Announcement
+  type: Channel
+  username: '@cross_protocol'
+- chat_id: 2215615383
+  title: Merge Pals Announcement
+  type: Channel
+  username: '@mergepalsofficial'
+- chat_id: 1433742542
+  title: КриптоХомяк – мысли вслух
+  type: Channel
+  username: '@CryptoHamsterRus'
+- chat_id: 1125779212
+  title: Крипта (деньги)
+  type: Channel
+  username: '@Kriptamoney'
+- chat_id: 1144076254
+  title: Влогчейн
+  type: Channel
+  username: '@vlogchain'
+- chat_id: 1087848957
+  title: Private Chat
+  type: User
+  username: '@revolutionfx_bot'
+- chat_id: 1606982721
+  title: headlines QUANTS
+  type: Channel
+  username: '@headlines_quants'
+- chat_id: 1368024716
+  title: Day CapitaL
+  type: Channel
+  username: '@daycapital3'
+- chat_id: 2237269152
+  title: Pumpad Official Announcement
+  type: Channel
+  username: '@pumpad_ido'
+- chat_id: 2490556455
+  title: Just News
+  type: Channel
+  username: null
+- chat_id: 1028506024
+  title: Private Chat
+  type: User
+  username: '@AndreyNikulnikov'
+- chat_id: 1197296889
+  title: ЗЛОЙ ФИНАНСИСТ 😡
+  type: Channel
+  username: '@finpizdec'
+- chat_id: 2088092194
+  title: CRYPTO NAVIGATOR
+  type: Channel
+  username: '@lightmemetoken'
+- chat_id: 1175262142
+  title: GG-Shøt. Indicator & Signals
+  type: Channel
+  username: null
+- chat_id: 1503093716
+  title: ANDREY YARD | ПУТЬ ЧЕРЕПАХИ 🐢
+  type: Channel
+  username: '@turtles_way'
+- chat_id: 1256130233
+  title: S&H
+  type: Channel
+  username: null
+- chat_id: 1265767587
+  title: JewTrade | Вадим Садовский
+  type: Channel
+  username: null
+- chat_id: 2097372927
+  title: Барон по TON
+  type: Channel
+  username: '@BaronTon0'
+- chat_id: 1552517216
+  title: 𝗖𝗿𝘆𝗽𝘁𝗼 𝗖𝗼𝗺𝗺𝘂𝗻𝗶𝘁𝘆 [₿]
+  type: Channel
+  username: null
+- chat_id: 1163804330
+  title: Holder
+  type: Channel
+  username: '@ru_holder'
+- chat_id: 1650095675
+  title: headlines FX
+  type: Channel
+  username: '@headlines_forex'
+- chat_id: 1935818141
+  title: Cryptic Crypto 🐳
+  type: Channel
+  username: '@cryptic_crypto_en'
+- chat_id: 1204844413
+  title: Григорий Полежаев | Крипта | Трейдинг | Инвестиции
+  type: Channel
+  username: '@homakill'
+- chat_id: 2252970784
+  title: 301 Puzzles
+  type: Channel
+  username: '@puzzles301'
+- chat_id: 1343705455
+  title: cryptomannn
+  type: Channel
+  username: '@cryptomannnisnotacult'
+- chat_id: 7668255798
+  title: Private Chat
+  type: User
+  username: '@spotvolumetrading_bot'
+- chat_id: 1699650279
+  title: Tradefuck - крипто инсайдер
+  type: Channel
+  username: '@tradefuck_insider'
+- chat_id: 1114966889
+  title: Crypto Time
+  type: Channel
+  username: '@neweconomytime'
+- chat_id: 1151522902
+  title: Крипто HeadHunter | WEB 3 Jobs
+  type: Channel
+  username: '@cryptoheadhunter'
+- chat_id: 1282336749
+  title: Принципы Баффетта | Обучение простым языком
+  type: Channel
+  username: '@buffetsignals'
+- chat_id: 2116004666
+  title: PRO AI | ПОЛЕЗНЫЙ СОФТ | НОВОСТИ
+  type: Channel
+  username: '@pro_ai_official'
+- chat_id: 1292249032
+  title: Главный по Крипте
+  type: Channel
+  username: '@CryptoChiefcom'
+- chat_id: 2077182284
+  title: Spell Wallet Updates
+  type: Channel
+  username: null
+- chat_id: 1664497359
+  title: NEO INSIDER CRYPTO
+  type: Channel
+  username: '@neo_cryptoboss'
+- chat_id: 1417620632
+  title: Трейдинг в благости - Игорь Павленко
+  type: Channel
+  username: '@blagotrading'
+- chat_id: 1708275902
+  title: HAYZON
+  type: Channel
+  username: '@hayzonn'
+- chat_id: 2006411237
+  title: Diamond Algo Premium İndicator Sale
+  type: Channel
+  username: null
+- chat_id: 1414417094
+  title: Коненков Святослав
+  type: Channel
+  username: '@konenkov_official'
+- chat_id: 1637020230
+  title: ONLINE TRADING
+  type: Channel
+  username: null
+- chat_id: 2040753523
+  title: DeepSafe Official Channel
+  type: Channel
+  username: '@DeepSafe_Official'
+- chat_id: 2090639796
+  title: Mnemonics Announcement
+  type: Channel
+  username: '@MnemonicsAnn'
+- chat_id: 1315170522
+  title: Navid Shokriyan (نوید شکریان)
+  type: Channel
+  username: '@icoandidoupdate'
+- chat_id: 2414346710
+  title: Tyler Durden
+  type: Channel
+  username: '@protontg'
+- chat_id: 1607573143
+  title: SpartaBTC. Трейдинг. ТА crypto. Tradingview.
+  type: Channel
+  username: '@SpartaBTC_tradingview'
+- chat_id: 1470675888
+  title: SpartaBTC. Финансы. Криптовалюты. Социология. Психология.
+  type: Channel
+  username: '@SpartaBTC_1318'
+- chat_id: 1219229844
+  title: Алиев Азиз | Трейдинг простым языком
+  type: Channel
+  username: '@alievtrade'
+- chat_id: 1580988846
+  title: STON.fi
+  type: Channel
+  username: '@stonfidex'
+- chat_id: 1547420320
+  title: SIDUS HEROES Channel
+  type: Channel
+  username: '@sidus_heroes_channel'
+- chat_id: 2000006387
+  title: Копи-трейдинг СПОТ
+  type: Channel
+  username: '@copytrading_spot'
+- chat_id: 7417912777
+  title: Private Chat
+  type: User
+  username: '@nutsfarm_bot'
+- chat_id: 383393562
+  title: Private Chat
+  type: User
+  username: '@devdariya'
+- chat_id: 7971685783
+  title: Private Chat
+  type: User
+  username: '@flopi_dating_bot'
+- chat_id: 7725296733
+  title: Private Chat
+  type: User
+  username: '@satoshi_game_bot'
+- chat_id: 7067142838
+  title: Private Chat
+  type: User
+  username: '@pricescantrading_bot'
+- chat_id: 1332884211
+  title: Артем Польченко | PlanB 🚀
+  type: Channel
+  username: '@artempolchenkoPlanB'
+- chat_id: 5822742440
+  title: Private Chat
+  type: User
+  username: null
+- chat_id: 6784664471
+  title: Private Chat
+  type: User
+  username: '@spell_wallet_bot'
+- chat_id: 7342134128
+  title: Private Chat
+  type: User
+  username: '@cash_rush_bot'
+- chat_id: 1988504708
+  title: TON News
+  type: Channel
+  username: null
+- chat_id: 1499290854
+  title: Екатерина Костевич
+  type: Channel
+  username: '@E_kostevich'
+- chat_id: 1203874188
+  title: Чайная История [Официальный канал]
+  type: Channel
+  username: '@chaystory'
+- chat_id: 2135767938
+  title: Crypto Updates
+  type: Channel
+  username: '@CryptoUpdaterz'
+- chat_id: 2000857361
+  title: AREWA STRIVERS
+  type: Channel
+  username: '@arewastrivers'
+- chat_id: 8173180834
+  title: Private Chat
+  type: User
+  username: '@DOGS03_bot'
+- chat_id: 1951907006
+  title: Tyler Durden
+  type: Channel
+  username: '@tonkingsquad'
+- chat_id: 1349257027
+  title: Михаил Чобанян | Michael Chobanian
+  type: Channel
+  username: '@michaelchobanian'
+- chat_id: 1163213919
+  title: Богатейший ДИ
+  type: Channel
+  username: '@richdi'
+- chat_id: 1127275147
+  title: SuperVerse
+  type: Channel
+  username: null
+- chat_id: 1530509454
+  title: The Daily TON | Новости
+  type: Channel
+  username: '@thedailytonrus'
 - chat_id: 1553721667
   title: Winnie
   type: Channel
@@ -178,70 +846,10 @@
   title: СЛЕЗЫ САТОШИ
   type: Channel
   username: '@slezisatoshi'
-- chat_id: 1247406490
-  title: Crypto Insider Signals
-  type: Channel
-  username: null
-- chat_id: 1293588603
-  title: Private Chat
-  type: User
-  username: '@m01chatbot'
-- chat_id: 1808847771
-  title: Обучение Pifagor
-  type: Channel
-  username: null
-- chat_id: 1888677534
-  title: Григорий Полежаев | Чат трейдеров
-  type: Channel
-  username: null
-- chat_id: 2289627285
-  title: Popcorn Today 🍿
-  type: Channel
-  username: '@popcorn_today'
-- chat_id: 1304417770
-  title: CryptoCommons 💎
-  type: Channel
-  username: '@cryptocommonz'
-- chat_id: 8045694950
-  title: Private Chat
-  type: User
-  username: '@liquidationstrading_bot'
-- chat_id: 1127580919
-  title: Whale Sniper
-  type: Channel
-  username: '@WhaleSniper'
-- chat_id: 1132611527
-  title: Coin Post – Деньги, инвестиции, биткоин
-  type: Channel
-  username: '@Coin_Post'
-- chat_id: 2021984947
-  title: САТОШИ NEWS
-  type: Channel
-  username: null
-- chat_id: 1131371900
-  title: CoinTrendz.com
-  type: Channel
-  username: '@cointrendz'
-- chat_id: 1503093716
-  title: ANDREY YARD | ПУТЬ ЧЕРЕПАХИ 🐢
-  type: Channel
-  username: '@turtles_way'
 - chat_id: 2182345236
   title: 📊HAISEN TON BERG🧪
   type: Channel
   username: '@haisenbergton'
-- chat_id: 2006411237
-  title: Diamond Algo Premium İndicator Sale
-  type: Channel
-  username: null
-- chat_id: 2006448338
-  title: Crypto Screeners/ Open Interest Alert🚨
-  type: Channel
-  username: '@oiscreener'
-- chat_id: 1308407014
-  title: Ripple XRP Channel (Новости рипл)
-  type: Channel
-  username: '@rippleweb'
 - chat_id: 2207548212
   title: Memes Lab
   type: Channel
@@ -250,46 +858,14 @@
   title: web3ru
   type: Channel
   username: null
-- chat_id: 1153542953
-  title: Trade_Soul
-  type: Channel
-  username: null
-- chat_id: 1277372114
-  title: 001k.Trade
-  type: Channel
-  username: '@trade001k'
 - chat_id: 1773288261
   title: Crypto Family Public
   type: Channel
   username: '@CryptoFamilyPublic'
-- chat_id: 1577682096
-  title: Хайдар Сабиев | Крипто Инсайдер
-  type: Channel
-  username: null
 - chat_id: 2327956863
   title: TON FESTIVAL NEWS
   type: Channel
   username: '@TON_Festival_News'
-- chat_id: 1793290375
-  title: ChainGPT Official Announcements Channel
-  type: Channel
-  username: '@ChainGPTNews'
-- chat_id: 1708275902
-  title: HAYZON
-  type: Channel
-  username: '@hayzonn'
-- chat_id: 1028506024
-  title: Private Chat
-  type: User
-  username: '@AndreyNikulnikov'
-- chat_id: 1687954051
-  title: Crypto QuickNet⚡️
-  type: Channel
-  username: '@cryptoquicknetuakh'
-- chat_id: 1000499465
-  title: ForkLog
-  type: Channel
-  username: '@forklog'
 - chat_id: 2476658313
   title: DAOGem Crypto News
   type: Channel
@@ -302,10 +878,6 @@
   title: TonDreamer
   type: Channel
   username: '@TonDreamerr'
-- chat_id: 1144076254
-  title: Влогчейн
-  type: Channel
-  username: '@vlogchain'
 - chat_id: 2220495586
   title: Toneflix
   type: Channel
@@ -314,82 +886,18 @@
   title: FadeWallet News
   type: Channel
   username: null
-- chat_id: 2490556455
-  title: Just News
-  type: Channel
-  username: null
-- chat_id: 1132013128
-  title: Копеечка в кошельке
-  type: Channel
-  username: '@kopeechkav'
-- chat_id: 1204844413
-  title: Григорий Полежаев | Крипта | Трейдинг | Инвестиции
-  type: Channel
-  username: '@homakill'
-- chat_id: 1455766467
-  title: Breakout Crypto
-  type: Channel
-  username: '@breakoutcryptos'
-- chat_id: 1343705455
-  title: cryptomannn
-  type: Channel
-  username: '@cryptomannnisnotacult'
-- chat_id: 1180245715
-  title: Крипто твиты
-  type: Channel
-  username: '@cryptotweet280'
-- chat_id: 1329419841
-  title: BAZYLEV TRADER
-  type: Channel
-  username: '@BazaBitcoin'
-- chat_id: 1114966889
-  title: Crypto Time
-  type: Channel
-  username: '@neweconomytime'
-- chat_id: 1256130233
-  title: S&H
-  type: Channel
-  username: null
 - chat_id: 2243180966
   title: WAGMI HUB 🇺🇦 Новини Українською
   type: Channel
   username: '@cfi_ua'
-- chat_id: 1637020230
-  title: ONLINE TRADING
-  type: Channel
-  username: null
-- chat_id: 1935818141
-  title: Cryptic Crypto 🐳
-  type: Channel
-  username: '@cryptic_crypto_en'
-- chat_id: 1664497359
-  title: NEO INSIDER CRYPTO
-  type: Channel
-  username: '@neo_cryptoboss'
-- chat_id: 2228759744
-  title: Точно в цель | Инвестиции
-  type: Channel
-  username: null
 - chat_id: 7413560442
   title: Private Chat
   type: User
   username: '@notgram_game_bot'
-- chat_id: 1584009696
-  title: Сигналы от Михалыча
-  type: Channel
-  username: '@Crypta_Mihalicha'
-- chat_id: 1678231536
-  title: BitLord
-  type: Channel
-  username: null
 - chat_id: 2017036482
   title: WAGMI HUB | News 🗞
   type: Channel
   username: '@WagmiHub_News'
-- chat_id: 1592181626
-  title: Solidus Ai Tech ANNOUNCEMENTS
-  type: Channel
-  username: '@solidusaitech'
 - chat_id: 1206345793
   title: Дайте TON!
   type: Channel
@@ -402,38 +910,10 @@
   title: Разумный Инвестор
   type: Channel
   username: '@razinvestor'
-- chat_id: 1175934497
-  title: Coindar на русском
-  type: Channel
-  username: '@coindar_ru'
-- chat_id: 1896345357
-  title: Nakamoto Trades | Крипта, трейдинг, сигналы
-  type: Channel
-  username: null
-- chat_id: 1139807011
-  title: 3Commas Комьюнити
-  type: Channel
-  username: '@commaschatru'
 - chat_id: 2179154345
   title: AKEDO News
   type: Channel
   username: '@akedofun'
-- chat_id: 1197296889
-  title: ЗЛОЙ ФИНАНСИСТ 😡
-  type: Channel
-  username: '@finpizdec'
-- chat_id: 1336105016
-  title: Типичный Инвестор
-  type: Channel
-  username: '@eduardinvest'
-- chat_id: 1580988846
-  title: STON.fi
-  type: Channel
-  username: '@stonfidex'
-- chat_id: 1410449050
-  title: Rose Paid Crypto Free ™🔒
-  type: Channel
-  username: null
 - chat_id: 1503653238
   title: TON Newbie 💎
   type: Channel
@@ -442,86 +922,18 @@
   title: TAKE RISK
   type: Channel
   username: null
-- chat_id: 1291483806
-  title: Торговые вероятности (SoloTrade)
-  type: Channel
-  username: '@solotradings'
 - chat_id: 2085714994
   title: Not a Spidey 🕸️
   type: Channel
   username: '@notaspidey'
-- chat_id: 1735416346
-  title: Евгений Самохин | CryptoUP
-  type: Channel
-  username: '@EScryptoUP'
 - chat_id: 1417365466
   title: SANCHO D.T.
   type: Channel
   username: '@SANCHO_DT'
-- chat_id: 1274514549
-  title: Профессор Альтов 🥸
-  type: Channel
-  username: '@profaltov'
-- chat_id: 1332884211
-  title: Артем Польченко | PlanB 🚀
-  type: Channel
-  username: '@artempolchenkoPlanB'
-- chat_id: 1321981396
-  title: CRYPTUS MEDIA
-  type: Channel
-  username: '@CRYPTUS_MEDIA'
 - chat_id: 1736900449
   title: Новости Тонкипера
   type: Channel
   username: '@tonkeeper_ru'
-- chat_id: 1797561573
-  title: Георгий Днище
-  type: Channel
-  username: '@geodnishe'
-- chat_id: 1183107394
-  title: Whale.Guru
-  type: Channel
-  username: '@WhaleGuruNews'
-- chat_id: 777000
-  title: Private Chat
-  type: User
-  username: null
-- chat_id: 1151522902
-  title: Крипто HeadHunter | WEB 3 Jobs
-  type: Channel
-  username: '@cryptoheadhunter'
-- chat_id: 1262300473
-  title: Blockchain Usa Official ( Binance ) 🐋
-  type: Channel
-  username: '@BlockchainOfficialBinance'
-- chat_id: 2071681053
-  title: Crypto Fomo
-  type: Channel
-  username: '@crypto_gst'
-- chat_id: 2290952554
-  title: Sticker Community
-  type: Channel
-  username: '@sticker_community'
-- chat_id: 1498073945
-  title: Startups & Ventures
-  type: Channel
-  username: null
-- chat_id: 1315170522
-  title: Navid Shokriyan (نوید شکریان)
-  type: Channel
-  username: '@icoandidoupdate'
-- chat_id: 1219229844
-  title: Алиев Азиз | Трейдинг простым языком
-  type: Channel
-  username: '@alievtrade'
-- chat_id: 1417620632
-  title: Трейдинг в благости - Игорь Павленко
-  type: Channel
-  username: '@blagotrading'
-- chat_id: 1233043722
-  title: TON Community
-  type: Channel
-  username: '@toncoin'
 - chat_id: 1139937668
   title: Smart Wall Monitor
   type: Channel
@@ -530,58 +942,14 @@
   title: Trader 80/20
   type: Channel
   username: null
-- chat_id: 1201452227
-  title: PRO CRYPTO TRADING
-  type: Channel
-  username: '@PROBTRADING'
-- chat_id: 1392170956
-  title: OKX Новости
-  type: Channel
-  username: '@okx_ru'
-- chat_id: 2174452486
-  title: CHEATKOTT - Your Daily News
-  type: Channel
-  username: '@cheatkott'
-- chat_id: 1584766605
-  title: VENIVIDIVICI️
-  type: Channel
-  username: '@VENIVIDIVICIASHFXPRO'
-- chat_id: 1756820909
-  title: UPTrade | Александр Янковский
-  type: Channel
-  username: null
 - chat_id: 1710398956
   title: PIF TWIT
   type: Channel
   username: '@piftwit'
-- chat_id: 1143184637
-  title: Алексей Руденко | Криптоинвестор
-  type: Channel
-  username: '@AlexRich2018'
-- chat_id: 1087848957
-  title: Private Chat
-  type: User
-  username: '@revolutionfx_bot'
-- chat_id: 2003787651
-  title: Robinhood PRIME
-  type: Channel
-  username: null
-- chat_id: 7668255798
-  title: Private Chat
-  type: User
-  username: '@spotvolumetrading_bot'
 - chat_id: 1995687995
   title: Not a Trader
   type: Channel
   username: '@notatraderrr'
-- chat_id: 2060552843
-  title: Hobby Crypto X
-  type: Channel
-  username: '@hobby_cryptoX'
-- chat_id: 1934789667
-  title: AirdropHunter (CIS)
-  type: Channel
-  username: '@airdrop_hunter_public'
 - chat_id: 1103962561
   title: CRYPTORUN🆓Evgeniy Shevchenko
   type: Channel
@@ -590,10 +958,6 @@
   title: Notcoin Community
   type: Channel
   username: null
-- chat_id: 2000857361
-  title: AREWA STRIVERS
-  type: Channel
-  username: '@arewastrivers'
 - chat_id: 1732713411
   title: Новости Кошелька
   type: Channel
@@ -606,86 +970,30 @@
   title: Private Chat
   type: User
   username: '@StormTradeBot'
-- chat_id: 1651796228
-  title: Заметки криптоэнтузиаста
-  type: Channel
-  username: '@cryptoennotes'
-- chat_id: 1063552156
-  title: БитЛента 🌲🪙⚡️ Вечный Восходл Души! サトし なカモと
-  type: Channel
-  username: '@BitLenta'
-- chat_id: 2140267755
-  title: PRO BLOCKCHAIN SQUAD
-  type: Channel
-  username: '@PROBLOCKCHAINSQUAD'
 - chat_id: 1754659673
   title: SpartaBTC. Скриншоты с закрытого канала по трейдингу.
   type: Channel
   username: '@SpartaBTC_scrin_closed_channel'
-- chat_id: 1192115186
-  title: MMarketmaker
-  type: Channel
-  username: null
 - chat_id: 1660305160
   title: Storm Trade | Новости ⚡️
   type: Channel
   username: '@storm_trade_news_ru'
-- chat_id: 2187280723
-  title: TrinityPAD Announcements
-  type: Channel
-  username: '@trinitypadann'
 - chat_id: 1969277594
   title: Storm Trade | News ⚡️
   type: Channel
   username: '@storm_trade_news'
-- chat_id: 1111607220
-  title: Pro Blockchain
-  type: Channel
-  username: '@Pro_Blockchain'
 - chat_id: 2455607350
   title: Obeie
   type: Channel
   username: null
-- chat_id: 1470675888
-  title: SpartaBTC. Финансы. Криптовалюты. Социология. Психология.
-  type: Channel
-  username: '@SpartaBTC_1318'
-- chat_id: 1607573143
-  title: SpartaBTC. Трейдинг. ТА crypto. Tradingview.
-  type: Channel
-  username: '@SpartaBTC_tradingview'
 - chat_id: 1325101275
   title: Егор Ганжела ❤️‍🔥 Про Трейдинг
   type: Channel
   username: null
-- chat_id: 1068404692
-  title: Private Chat
-  type: User
-  username: '@alex_gramm'
-- chat_id: 1949247155
-  title: Fastex Exchange News
-  type: Channel
-  username: '@fastexexchange_news'
 - chat_id: 2198076623
   title: 'Boom: Crypto News'
   type: Channel
   username: '@boomloudcoin'
-- chat_id: 2088092194
-  title: CRYPTO NAVIGATOR
-  type: Channel
-  username: '@lightmemetoken'
-- chat_id: 7417231533
-  title: Private Chat
-  type: User
-  username: '@ackinacki_bot'
-- chat_id: 1433742542
-  title: КриптоХомяк – мысли вслух
-  type: Channel
-  username: '@CryptoHamsterRus'
-- chat_id: 2112951736
-  title: Newcoin - Возможности крипты
-  type: Channel
-  username: '@newcoinopss'
 - chat_id: 2002929515
   title: CryptoMay
   type: Channel
@@ -698,18 +1006,10 @@
   title: Rouzii Crypto
   type: Channel
   username: '@rouziicrypto'
-- chat_id: 1507605936
-  title: 'Эра Перемен: Инвестиционно-аналитическое агентство'
-  type: Channel
-  username: '@eraperemenfinans'
 - chat_id: 2220693045
   title: Acki Nacki Announcements
   type: Channel
   username: '@ackinackinews'
-- chat_id: 1548775009
-  title: Tradoor.io News - Trade crypto like a legend
-  type: Channel
-  username: '@tradoor_io'
 - chat_id: 1537427825
   title: Tonkeeper News
   type: Channel
@@ -722,18 +1022,10 @@
   title: 🔍Вован Гарантирует Х-ы🔝24/7
   type: Channel
   username: null
-- chat_id: 2237269152
-  title: Pumpad Official Announcement
-  type: Channel
-  username: '@pumpad_ido'
 - chat_id: 1753182533
   title: Анатолий Панов Трейдер|Инвестор
   type: Channel
   username: '@fantastictraderru'
-- chat_id: 2188840862
-  title: $NOTAI Announcements
-  type: Channel
-  username: '@NOTAI_ann'
 - chat_id: 2203017111
   title: Nuts Farm
   type: Channel
@@ -747,14 +1039,6 @@
     | ฅ^◡ ⩊ ◡^ฅ
   type: Channel
   username: '@ForUAI_channel'
-- chat_id: 1293287526
-  title: Герман на блокчейне 🇪🇹
-  type: Channel
-  username: '@blockchaingerman'
-- chat_id: 2039438207
-  title: 'Blum: All Crypto – One App'
-  type: Channel
-  username: '@blumcrypto'
 - chat_id: 2083325157
   title: Units.Network Announcements
   type: Channel
@@ -763,42 +1047,18 @@
   title: SingularityDAO Announcements
   type: Channel
   username: '@sdaoann'
-- chat_id: 1146915409
-  title: Binance Announcements
-  type: Channel
-  username: '@binance_announcements'
-- chat_id: 1382986975
-  title: The Bull
-  type: Channel
-  username: '@thebull_crypto'
 - chat_id: 1104329071
   title: AvanChange
   type: Channel
   username: null
-- chat_id: 1301125719
-  title: Apollo Crypto
-  type: Channel
-  username: '@apollocrypto'
 - chat_id: 1429812236
   title: Blondy Chain - CRYPTO
   type: Channel
   username: '@blondychain_announce'
-- chat_id: 1136434524
-  title: 3Commas Анонсы
-  type: Channel
-  username: '@commas_ru'
-- chat_id: 1260376173
-  title: Bitget Announcements
-  type: Channel
-  username: '@Bitget_Announcements'
 - chat_id: 2233243433
   title: Butterfly Capital News
   type: Channel
   username: null
-- chat_id: 1435570463
-  title: Профессор Клинков
-  type: Channel
-  username: '@professorklinkov'
 - chat_id: 1194530865
   title: PRO NFT
   type: Channel
@@ -811,18 +1071,10 @@
   title: Venture Capital
   type: Channel
   username: null
-- chat_id: 1704501466
-  title: Ai Agents Pad from Silicon Valley ENG CHANNEL
-  type: Channel
-  username: '@AAAPadSF'
 - chat_id: 2298924481
   title: Brainedge / BrainGames -Announcement
   type: Channel
   username: '@brainedge_ai'
-- chat_id: 1892053665
-  title: AirdropHunter (EN)
-  type: Channel
-  username: '@airdrop_hunter_en'
 - chat_id: 1852810300
   title: zicelaqo
   type: Channel
@@ -839,52 +1091,16 @@
   title: MASLOW PRO CRYPTO
   type: Channel
   username: '@vadim_maslow'
-- chat_id: 2029858040
-  title: TON WORLD
-  type: Channel
-  username: '@tonworldru'
 - chat_id: 1100715768
   title: TON Diamonds NFT RUS
   type: Channel
   username: '@tondiamonds_rus'
-- chat_id: 1414417094
-  title: Коненков Святослав
-  type: Channel
-  username: '@konenkov_official'
-- chat_id: 1356687400
-  title: Fasttoken News
-  type: Channel
-  username: '@fasttoken_news'
 - chat_id: 1912183688
   title: ceosanya
   type: Channel
   username: '@ceosanya'
-- chat_id: 1732968961
-  title: OperArepO
-  type: Channel
-  username: '@OperArepO'
 - chat_id: 1654367187
   title: Красивый Трейдер
-  type: Channel
-  username: null
-- chat_id: 1552517216
-  title: 𝗖𝗿𝘆𝗽𝘁𝗼 𝗖𝗼𝗺𝗺𝘂𝗻𝗶𝘁𝘆 [₿]
-  type: Channel
-  username: null
-- chat_id: 2204597790
-  title: VOOI Announcements
-  type: Channel
-  username: '@vooi_app'
-- chat_id: 7307587940
-  title: Private Chat
-  type: User
-  username: '@SynQuestBot'
-- chat_id: 2167851784
-  title: Farm Frens (Frencoin) 📣 News
-  type: Channel
-  username: '@farmfrens'
-- chat_id: 2117839753
-  title: Прометей
   type: Channel
   username: null
 - chat_id: 1527810086
@@ -899,66 +1115,22 @@
   title: Private Chat
   type: User
   username: '@catsdogs_game_bot'
-- chat_id: 1349257027
-  title: Михаил Чобанян | Michael Chobanian
-  type: Channel
-  username: '@michaelchobanian'
-- chat_id: 2215615383
-  title: Merge Pals Announcement
-  type: Channel
-  username: '@mergepalsofficial'
-- chat_id: 1231880494
-  title: Макс торгует криптой
-  type: Channel
-  username: null
 - chat_id: 1633183725
   title: Sokol Finance
   type: Channel
   username: '@sokol_finance'
-- chat_id: 2330014279
-  title: CROSS Announcement
-  type: Channel
-  username: '@cross_protocol'
 - chat_id: 2076872338
   title: Shadow_of_Gandalf
   type: Channel
   username: '@whisper_in_the_night'
-- chat_id: 1606982721
-  title: headlines QUANTS
-  type: Channel
-  username: '@headlines_quants'
-- chat_id: 1840752716
-  title: WGT DAO
-  type: Channel
-  username: '@WGTDAO'
 - chat_id: 2052827234
   title: OKX Wallet Announcement
   type: Channel
   username: '@okxwalletannouncement'
-- chat_id: 1175262142
-  title: GG-Shøt. Indicator & Signals
-  type: Channel
-  username: null
-- chat_id: 2252970784
-  title: 301 Puzzles
-  type: Channel
-  username: '@puzzles301'
-- chat_id: 1650095675
-  title: headlines FX
-  type: Channel
-  username: '@headlines_forex'
-- chat_id: 2116004666
-  title: PRO AI | ПОЛЕЗНЫЙ СОФТ | НОВОСТИ
-  type: Channel
-  username: '@pro_ai_official'
 - chat_id: 1721822897
   title: Филатов Дмитрий
   type: Channel
   username: '@fil100'
-- chat_id: 1292249032
-  title: Главный по Крипте
-  type: Channel
-  username: '@CryptoChiefcom'
 - chat_id: 2216050012
   title: Daily Combo AGENT VERTUS | TOMARKET PLANES
   type: Channel
@@ -967,22 +1139,10 @@
   title: IKIGAI
   type: Channel
   username: '@ikigaimain'
-- chat_id: 1699650279
-  title: Tradefuck - крипто инсайдер
-  type: Channel
-  username: '@tradefuck_insider'
-- chat_id: 7725296733
-  title: Private Chat
-  type: User
-  username: '@satoshi_game_bot'
 - chat_id: 2328557463
   title: SM Traders
   type: Channel
   username: null
-- chat_id: 1914837208
-  title: 'DeGuard | Privacy based on #web3'
-  type: Channel
-  username: '@DeGuardVPN'
 - chat_id: 2021273364
   title: NOTMEME Agent News
   type: Channel
@@ -991,30 +1151,14 @@
   title: Notcoin Base
   type: Channel
   username: '@notcoin_explore'
-- chat_id: 7067142838
-  title: Private Chat
-  type: User
-  username: '@pricescantrading_bot'
 - chat_id: 7522571436
   title: Private Chat
   type: User
   username: '@theFreeDogs_bot'
-- chat_id: 2097372927
-  title: Барон по TON
-  type: Channel
-  username: '@BaronTon0'
 - chat_id: 1346870469
   title: Rustam Vasilevich - трейдинг криптовалют, новости, обзоры рынка
   type: Channel
   username: '@Rustik_Vasilevich'
-- chat_id: 1862339704
-  title: Bitget Wallet Announcements
-  type: Channel
-  username: '@Bitget_Wallet_Announcement'
-- chat_id: 1995311622
-  title: ИМПЕРИЯ ПАВЛОВА
-  type: Channel
-  username: null
 - chat_id: 1639308366
   title: EVAA
   type: Channel
@@ -1023,34 +1167,14 @@
   title: NerdNuggets Announcement
   type: Channel
   username: '@nerdnuggets'
-- chat_id: 1967795413
-  title: Trending Apps
-  type: Channel
-  username: null
 - chat_id: 2230315907
   title: DUCK × MY × DUCK | Новости
   type: Channel
   username: '@duckmyduck_official_ru'
-- chat_id: 1136501812
-  title: CRYPTO BULL
-  type: Channel
-  username: '@cryptobull_club'
-- chat_id: 1125779212
-  title: Крипта (деньги)
-  type: Channel
-  username: '@Kriptamoney'
 - chat_id: 878106778
   title: Private Chat
   type: User
   username: '@yoptgyo_bot'
-- chat_id: 1579620324
-  title: TON Community RUS
-  type: Channel
-  username: '@toncoin_rus'
-- chat_id: 2074578309
-  title: Bitget Wallet Indonesia Announcements
-  type: Channel
-  username: '@bitget_wallet_indonesia'
 - chat_id: 2231066252
   title: Ton.Fo International
   type: Channel
@@ -1071,22 +1195,6 @@
   title: Eduton
   type: Channel
   username: '@EdutonRus'
-- chat_id: 1341739006
-  title: XDAO | Official channel 💠
-  type: Channel
-  username: '@xdaoapp'
-- chat_id: 1497180783
-  title: GT Protocol Announcements Channel
-  type: Channel
-  username: '@GTProtocolNews'
-- chat_id: 2135767938
-  title: Crypto Updates
-  type: Channel
-  username: '@CryptoUpdaterz'
-- chat_id: 2077182284
-  title: Spell Wallet Updates
-  type: Channel
-  username: null
 - chat_id: 2215185497
   title: GraFun
   type: Channel
@@ -1095,10 +1203,6 @@
   title: Private Chat
   type: User
   username: '@Pifagor_Indicator_bot'
-- chat_id: 1373275084
-  title: БИТКОИН Адепт
-  type: Channel
-  username: '@bitcoinadept'
 - chat_id: 2488028169
   title: TON GRASP
   type: Channel
@@ -1111,26 +1215,10 @@
   title: Du Rove's Channel
   type: Channel
   username: null
-- chat_id: 1265767587
-  title: JewTrade | Вадим Садовский
-  type: Channel
-  username: null
-- chat_id: 2090639796
-  title: Mnemonics Announcement
-  type: Channel
-  username: '@MnemonicsAnn'
 - chat_id: 1106883310
   title: КЛУБ "АЛЬТКОИНЫ"
   type: Channel
   username: '@cryptostrategychat'
-- chat_id: 2096967905
-  title: Elderglade Announcements 🦊
-  type: Channel
-  username: '@eldergladenews'
-- chat_id: 1282336749
-  title: Принципы Баффетта | Обучение простым языком
-  type: Channel
-  username: '@buffetsignals'
 - chat_id: 1309689589
   title: HODL
   type: Channel
@@ -1155,22 +1243,10 @@
   title: Private Chat
   type: User
   username: '@spotpumptrading_bot'
-- chat_id: 7290150277
-  title: Private Chat
-  type: User
-  username: '@futuresvolumetrading_bot'
-- chat_id: 1203874188
-  title: Чайная История [Официальный канал]
-  type: Channel
-  username: '@chaystory'
 - chat_id: 2050135069
   title: Cryptomadness 📉
   type: Channel
   username: '@cryptomadnessofficially'
-- chat_id: 2000006387
-  title: Копи-трейдинг СПОТ
-  type: Channel
-  username: '@copytrading_spot'
 - chat_id: 2173900823
   title: DOGS Community
   type: Channel
@@ -1183,10 +1259,6 @@
   title: X-WAR GAME (XRPL) / RIPPLE XRP
   type: Channel
   username: '@xwar_game'
-- chat_id: 8173180834
-  title: Private Chat
-  type: User
-  username: '@DOGS03_bot'
 - chat_id: 1640599467
   title: CRYPTUS ACADEMY
   type: Channel
@@ -1215,10 +1287,6 @@
   title: Private Chat
   type: User
   username: null
-- chat_id: 1548194378
-  title: $ECO PROJECT
-  type: Channel
-  username: '@eco_project_ton'
 - chat_id: 1786692292
   title: Private Chat
   type: User
@@ -1263,14 +1331,6 @@
   title: TON Station
   type: Channel
   username: '@tonstationgames'
-- chat_id: 1547420320
-  title: SIDUS HEROES Channel
-  type: Channel
-  username: '@sidus_heroes_channel'
-- chat_id: 1988504708
-  title: TON News
-  type: Channel
-  username: null
 - chat_id: 2152569609
   title: Dan K 😎 BLOG
   type: Channel
@@ -1279,10 +1339,6 @@
   title: HOT DROPS 🎁
   type: Channel
   username: '@drops_on_hot'
-- chat_id: 5822742440
-  title: Private Chat
-  type: User
-  username: null
 - chat_id: 6891304144
   title: Private Chat
   type: User
@@ -1291,10 +1347,6 @@
   title: FOX CRYPTO
   type: Channel
   username: '@FirefoxCrypto'
-- chat_id: 2144449395
-  title: W-Community
-  type: Channel
-  username: '@w_community'
 - chat_id: 2198685406
   title: Monkey on TON
   type: Channel
@@ -1335,10 +1387,6 @@
   title: Private Chat
   type: User
   username: '@tonxdao_bot'
-- chat_id: 2050128428
-  title: Cartel Solana
-  type: Channel
-  username: '@crlsol'
 - chat_id: 6865543862
   title: Private Chat
   type: User
@@ -1391,10 +1439,6 @@
   title: Sense
   type: Channel
   username: '@sense_ton'
-- chat_id: 7342134128
-  title: Private Chat
-  type: User
-  username: '@cash_rush_bot'
 - chat_id: 1272304493
   title: AGIcoin Channel
   type: Channel
@@ -1455,10 +1499,6 @@
   title: Sarah's Bull
   type: Channel
   username: '@Sarahsbull'
-- chat_id: 1499290854
-  title: Екатерина Костевич
-  type: Channel
-  username: '@E_kostevich'
 - chat_id: 1691696827
   title: OMDAO Ventures
   type: Channel
@@ -1471,10 +1511,6 @@
   title: Private Chat
   type: User
   username: null
-- chat_id: 2040753523
-  title: DeepSafe Official Channel
-  type: Channel
-  username: '@DeepSafe_Official'
 - chat_id: 6376176715
   title: Private Chat
   type: User
@@ -1555,10 +1591,6 @@
   title: Private Chat
   type: User
   username: null
-- chat_id: 383393562
-  title: Private Chat
-  type: User
-  username: '@devdariya'
 - chat_id: 1348298652
   title: iMe Messenger & Crypto Wallet
   type: Channel
@@ -1591,10 +1623,6 @@
   title: Крипто Барон
   type: Channel
   username: '@CryptoBaroooon'
-- chat_id: 1163804330
-  title: Holder
-  type: Channel
-  username: '@ru_holder'
 - chat_id: 7302731747
   title: Private Chat
   type: User
@@ -1631,10 +1659,6 @@
   title: BIRD TON
   type: Channel
   username: null
-- chat_id: 6784664471
-  title: Private Chat
-  type: User
-  username: '@spell_wallet_bot'
 - chat_id: 8052977726
   title: Private Chat
   type: User
@@ -1659,6 +1683,10 @@
   title: Private Chat
   type: User
   username: '@IcebergAppBot'
+- chat_id: 1548194378
+  title: $ECO PROJECT
+  type: Channel
+  username: '@eco_project_ton'
 - chat_id: 2051826939
   title: ANON
   type: Channel
@@ -1723,10 +1751,6 @@
   title: brrrrr en
   type: Channel
   username: '@brrrrren'
-- chat_id: 1392225661
-  title: White Bulls 🇺🇦💪
-  type: Channel
-  username: null
 - chat_id: 7641773298
   title: Private Chat
   type: User
@@ -2127,10 +2151,6 @@
   title: Private Chat
   type: User
   username: '@buzzit1_bot'
-- chat_id: 5247844575
-  title: Private Chat
-  type: User
-  username: '@gate_official_bot'
 - chat_id: 1938166510
   title: Шатал этот Биткоин 🎢
   type: Channel
@@ -2291,14 +2311,6 @@
   title: Private Chat
   type: User
   username: '@cyborg_telegram_bot'
-- chat_id: 7417912777
-  title: Private Chat
-  type: User
-  username: '@nutsfarm_bot'
-- chat_id: 7971685783
-  title: Private Chat
-  type: User
-  username: '@flopi_dating_bot'
 - chat_id: 7246699066
   title: Private Chat
   type: User
@@ -4568,10 +4580,6 @@
   title: Private Chat
   type: User
   username: null
-- chat_id: 1665025465
-  title: Notcoin Community
-  type: Channel
-  username: '@officialsuntap'
 - chat_id: 5196701971
   title: Private Chat
   type: User
