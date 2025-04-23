@@ -1,5 +1,8 @@
 from telethon import events, TelegramClient
 from telethon.tl.custom.message import Message
+from core.router import load_filters, detect_topic
+
+filters = load_filters()
 
 def get_source_key(route):
     """Возвращает username или chat_id источника."""
@@ -8,10 +11,6 @@ def get_source_key(route):
     return route["source"]
 
 async def setup_forwarding(client: TelegramClient, routes: list, mode: str = "copy"):
-    """
-    Настраивает пересылку сообщений от источников в заданные темы.
-    mode: "copy" или "forward"
-    """
     mapping = {}
     for route in routes:
         key = str(get_source_key(route))
@@ -20,7 +19,6 @@ async def setup_forwarding(client: TelegramClient, routes: list, mode: str = "co
             "thread_id": route.get("thread_id", None)
         })
 
-    # Источники для фильтрации событий
     all_sources = [int(k) if str(k).isdigit() else k for k in mapping.keys()]
 
     @client.on(events.NewMessage(chats=all_sources))
@@ -36,21 +34,28 @@ async def setup_forwarding(client: TelegramClient, routes: list, mode: str = "co
             try:
                 entity = await client.get_entity(target)
 
+                # Автоматическая маршрутизация, если не задано явно
+                if thread_id is None:
+                    auto_thread_id, reason = detect_topic(event.raw_text or "", filters)
+                    thread_id = auto_thread_id
+                    print(f"[ROUTER] Автоопределение темы: '{reason}' → thread_id={thread_id}")
+
                 if mode == "forward":
-                    # Пересылка как оригинал, но без thread_id (Telegram API не поддерживает)
                     await client.forward_messages(entity, event.message)
                     print(f"[FORWARD] {src} → {target}")
                 else:
-                    # Режим копирования с сохранением форматирования и медиа
-                    await client.send_message(
-                        entity=entity,
-                        message=event.raw_text or "",
-                        formatting_entities=event.message.entities,
-                        file=event.media if event.media else None,
-                        link_preview=False,
-                        reply_to=thread_id
-                    )
-                    print(f"[COPY] {src} → {target} (thread {thread_id})")
+                    if thread_id is not None:
+                        await client.send_message(
+                            entity=entity,
+                            message=event.raw_text or "",
+                            formatting_entities=event.message.entities,
+                            file=event.media if event.media else None,
+                            link_preview=False,
+                            reply_to=thread_id
+                        )
+                        print(f"[COPY] {src} → {target} (thread {thread_id})")
+                    else:
+                        print(f"[SKIP] {src} → {target}: Не удалось определить thread_id")
 
             except Exception as e:
                 print(f"[ERROR] {src} → {target} (thread {thread_id}) failed: {e}")

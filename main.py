@@ -1,7 +1,9 @@
+# main.py
 import asyncio
 from telethon import TelegramClient
 from config.config_loader import load_config
 from core.forwarder import setup_forwarding
+from core.router import setup_router_forwarding
 
 async def main():
     config = load_config()
@@ -13,11 +15,26 @@ async def main():
     )
 
     await client.start(config["phone_number"])
-    print("[TELEGRAM] Client started")
+    print("[TELEGRAM] Client started\n")
 
-    # Никаких join'ов — только запуск пересылки
-    await setup_forwarding(client, config["routes"], mode=config.get("mode", "copy"))
-    print(f"[MAIN] Listening with {len(config['routes'])} routes...")
+    # 1. Боты-сигнальщики
+    routes = config.get("routes", [])
+    print(f"[MAIN] Активные маршруты (боты): {len(routes)}")
+    for r in routes:
+        src = r["source"].get("username") or r["source"].get("chat_id")
+        tid = r.get("thread_id")
+        print(f"  • {src} → thread_id={tid}")
+    print()
+
+    await setup_forwarding(client, routes, mode=config.get("mode", "copy"))
+
+    # 2. Новости
+    news_cfg = config.get("news", {})
+    news_source = news_cfg.get("source")
+    news_target = news_cfg.get("target_chat")
+    print(f"[MAIN] Источник новостей: {news_source} → группа {news_target}\n")
+
+    await setup_router_forwarding(client, news_source, news_target)
 
     await client.run_until_disconnected()
 

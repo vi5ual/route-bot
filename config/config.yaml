@@ -49,7 +49,13 @@ routes:
     thread_id:   5   # "OPEN INTEREST TRADING"
 
   - source:
-      username: "futurespumptrading_bot"
+      username: "@futurespumptrading_bot"
       chat_id:  7952250753
     target_chat: -1002447090280
     thread_id:   2   # "FUTURES PUMP TRADING"
+
+news:
+  source: "@crypto_hd"
+  target_chat: -1002686329432
+
+
