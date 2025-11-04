@@ -1,61 +1,89 @@
-from telethon import events, TelegramClient
-from telethon.tl.custom.message import Message
-from core.router import load_filters, detect_topic
+# core/forwarder.py - Способ 3: Инлайн кнопки
 
-filters = load_filters()
+import re
+import yaml
+print("LOADED forwarder.py")
 
-def get_source_key(route):
-    """Возвращает username или chat_id источника."""
-    if isinstance(route["source"], dict):
-        return route["source"].get("chat_id") or route["source"].get("username")
-    return route["source"]
+from telethon import events, TelegramClient, Button
+from telethon.tl.types import InputPeerChannel
+from core.router import _best_match, _load_rules
 
-async def setup_forwarding(client: TelegramClient, routes: list, mode: str = "copy"):
-    mapping = {}
-    for route in routes:
-        key = str(get_source_key(route))
-        mapping.setdefault(key, []).append({
-            "target_chat": route["target_chat"],
-            "thread_id": route.get("thread_id", None)
-        })
+cfg = yaml.safe_load(open("config/config.yaml", encoding="utf-8"))
+FEATURE_FLAGS = cfg.get("features", {})
 
-    all_sources = [int(k) if str(k).isdigit() else k for k in mapping.keys()]
+EXCLUDE_THREAD_IDS = set()
+news_config = cfg.get("news", {})
+if news_config:
+    exclude_tid = news_config.get("thread_id")
+    if exclude_tid:
+        EXCLUDE_THREAD_IDS.add(exclude_tid)
 
-    @client.on(events.NewMessage(chats=all_sources))
-    async def handler(event: Message):
-        src = str(event.chat_id or event.chat.username)
-        if src not in mapping:
-            return
+_, RULES = _load_rules()
 
-        for destination in mapping[src]:
-            target = destination["target_chat"]
-            thread_id = destination.get("thread_id")
+def _resolve_input_peer(src):
+    if isinstance(src, dict):
+        cid = src.get("chat_id")
+        ah = src.get("access_hash")
+        if ah is not None:
+            return InputPeerChannel(channel_id=abs(cid), access_hash=ah)
+        if src.get("username"):
+            return src["username"]
+        return cid
+    return src
+
+async def setup_forwarding(client: TelegramClient, routes, mode="copy"):
+    src_entities = {}
+    tgt_entities = {}
+    for r in routes:
+        raw = r["source"]
+        key = str(raw)
+        if key not in src_entities:
+            peer = _resolve_input_peer(raw)
+            src_entities[key] = await client.get_entity(peer)
+        tgt = r["target_chat"]
+        if tgt not in tgt_entities:
+            tgt_entities[tgt] = await client.get_entity(tgt)
+
+    routes_by_chat = {}
+    for r in routes:
+        ent = src_entities[str(r["source"])]
+        routes_by_chat.setdefault(ent.id, []).append(r)
+
+    @client.on(events.NewMessage(chats=list(routes_by_chat.keys())))
+    async def handler(ev):
+        chat_id = ev.chat_id
+        
+        for r in routes_by_chat.get(chat_id, []):
+            tgt_ent = tgt_entities[r["target_chat"]]
+            tid = r.get("thread_id")
+            if tid is None:
+                tid, _ = _best_match(ev.raw_text or "", RULES)
 
             try:
-                entity = await client.get_entity(target)
+                TRADE_LINK = (
+                    "https://t.me/hyperdx_bot?start=real_trade"
+                    if FEATURE_FLAGS.get("enable_trade_button")
+                    else "https://t.me/iv?url=about:blank"
+                )
 
-                # Автоматическая маршрутизация, если не задано явно
-                if thread_id is None:
-                    auto_thread_id, reason = detect_topic(event.raw_text or "", filters)
-                    thread_id = auto_thread_id
-                    print(f"[ROUTER] Автоопределение темы: '{reason}' → thread_id={thread_id}")
+                # Отправляем оригинальное сообщение с инлайн кнопкой
+                button_text = "🟢 Торговать"
+                if not FEATURE_FLAGS.get("enable_trade_button"):
+                    button_text += " (в разработке)"
 
-                if mode == "forward":
-                    await client.forward_messages(entity, event.message)
-                    print(f"[FORWARD] {src} → {target}")
-                else:
-                    if thread_id is not None:
-                        await client.send_message(
-                            entity=entity,
-                            message=event.raw_text or "",
-                            formatting_entities=event.message.entities,
-                            file=event.media if event.media else None,
-                            link_preview=False,
-                            reply_to=thread_id
-                        )
-                        print(f"[COPY] {src} → {target} (thread {thread_id})")
-                    else:
-                        print(f"[SKIP] {src} → {target}: Не удалось определить thread_id")
+                buttons = [Button.url(button_text, TRADE_LINK)]
 
+                await client.send_message(
+                    tgt_ent,
+                    ev.message,  # Сохраняем оригинальное форматирование
+                    reply_to=tid,
+                    file=ev.media or None,
+                    buttons=buttons
+                )
+
+                print(f"[FORWARDER] Inline button: {chat_id} → {r['target_chat']}")
+                
             except Exception as e:
-                print(f"[ERROR] {src} → {target} (thread {thread_id}) failed: {e}")
+                print(f"[FORWARDER][ERR] {e}")
+
+    _ = handler

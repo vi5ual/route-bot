@@ -5,6 +5,9 @@ api_hash:    "ca1d10d469d10d787e18b256d375cd3e"
 phone_number: "+380504444542"
 session_name: "route_bot"
 
+features:
+  enable_trade_button: false
+
 mode: "copy"  # или "forward"
 
 # ID группы, в которой у вас forum-канал/темы
@@ -53,6 +56,36 @@ routes:
       chat_id:  7952250753
     target_chat: -1002447090280
     thread_id:   2   # "FUTURES PUMP TRADING"
+
+  - source:
+      username: "@Spreadtradings_bot"
+      chat_id:  7595119966
+    target_chat: -1002447090280
+    thread_id:   1066   # "SPREAD TRADING"
+
+  - source:
+      username: "@fundingtradings_bot"
+      chat_id:  8056690927
+    target_chat: -1002447090280
+    thread_id:   14421   # "FUNDING TRADING"
+
+  - source:
+      username: "@volumeimpulstrading_bot"
+      chat_id:  7600852681
+    target_chat: -1002447090280
+    thread_id:   21008   # "VOLUME IMPULSE FUTURES"
+
+  - source:
+      username: "@listingdelistingunlockss_bot"
+      chat_id:  7910480481
+    target_chat: -1002447090280
+    thread_id:   253082   # "LISTING DELISTING UNLOCKS"
+  
+  - source:
+      chat_id:  -1002214948462
+    access_hash:  -1516467140652115096
+    target_chat: -1002686329432
+    thread_id:   206   # "WEB3"
 
 news:
   source: "@crypto_hd"

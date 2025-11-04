@@ -14,36 +14,18 @@ filters:
     priority: 100
   - keyword: "Выходные"
     thread_id: 1
-    priority: 100
+    priority: 80
   - keyword: "original"
     thread_id: 13
     priority: 100
   - keyword: "(twitter)"
     thread_id: 13
     priority: 100
-  - keyword: "blog"
-    thread_id: 13
-    priority: 100
-  - keyword: "twitter"
-    thread_id: 13
-    priority: 100
-  - keyword: "Fortune"
-    thread_id: 13
-    priority: 100
-  - keyword: "релиз"
+  - keyword: "#релиз"
     thread_id: 7
-    priority: 100
-  - keyword: "мнение"
-    thread_id: 2
     priority: 100
   - keyword: "#мнение"
     thread_id: 2
-    priority: 100
-  - keyword: "прогнозы"
-    thread_id: 2
-    priority: 100
-  - keyword: "слухи"
-    thread_id: 207
     priority: 100
   - keyword: "#слухи"
     thread_id: 207
@@ -66,7 +48,7 @@ filters:
   - keyword: "ончейн"
     thread_id: 24
     priority: 100
-  - keyword: "скам"
+  - keyword: "#скам"
     thread_id: 92
     priority: 100
   - keyword: "ETF"
@@ -90,25 +72,19 @@ filters:
   - keyword: "Майкл Сэйлор"
     thread_id: 20
     priority: 100
-  - keyword: "Майкле Сэйлоре"
-    thread_id: 20
-    priority: 100
   - keyword: "альткоины"
     thread_id: 22
     priority: 100
   - keyword: "RWA"
     thread_id: 19
     priority: 100
-  - keyword: "торговаявойна"
+  - keyword: "#торговаявойна"
     thread_id: 4
     priority: 100
   - keyword: "инсайд"
     thread_id: 9
     priority: 100
-  - keyword: "анонс"
-    thread_id: 7
-    priority: 100
-  - keyword: "(анонс)"
+  - keyword: "#анонс"
     thread_id: 7
     priority: 100
   - keyword: "анонсировали"
@@ -144,7 +120,7 @@ filters:
   - keyword: "Дональда Трампа"
     thread_id: 3
     priority: 100
-  - keyword: "взлом"
+  - keyword: "#взлом"
     thread_id: 92
     priority: 100
   - keyword: "взломали"
@@ -172,6 +148,9 @@ filters:
     thread_id: 169
     priority: 100
   - keyword: "#рекорды"
+    thread_id: 10
+    priority: 100
+  - keyword: "ТОП"
     thread_id: 10
     priority: 100
   - keyword: "ТОП"

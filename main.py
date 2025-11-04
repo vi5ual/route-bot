@@ -13,28 +13,28 @@ async def main():
         config["api_id"],
         config["api_hash"]
     )
-
     await client.start(config["phone_number"])
     print("[TELEGRAM] Client started\n")
 
-    # 1. Боты-сигнальщики
+    # 1) Сигнальные боты
     routes = config.get("routes", [])
     print(f"[MAIN] Активные маршруты (боты): {len(routes)}")
     for r in routes:
-        src = r["source"].get("username") or r["source"].get("chat_id")
-        tid = r.get("thread_id")
-        print(f"  • {src} → thread_id={tid}")
+        src = r["source"]
+        if isinstance(src, dict):
+            src_name = src.get("username") or src.get("chat_id")
+        else:
+            src_name = src
+        print(f"  • {src_name} → thread_id={r.get('thread_id')}")
     print()
-
     await setup_forwarding(client, routes, mode=config.get("mode", "copy"))
 
-    # 2. Новости
-    news_cfg = config.get("news", {})
-    news_source = news_cfg.get("source")
-    news_target = news_cfg.get("target_chat")
-    print(f"[MAIN] Источник новостей: {news_source} → группа {news_target}\n")
-
-    await setup_router_forwarding(client, news_source, news_target)
+    # 2) Новостной канал
+    news = config.get("news", {})
+    src = news.get("source")
+    tgt = news.get("target_chat")
+    print(f"[MAIN] Источник новостей: {src} → группа {tgt}\n")
+    await setup_router_forwarding(client, src, tgt)
 
     await client.run_until_disconnected()
 
