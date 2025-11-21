@@ -20,6 +20,80 @@ if news_config:
 
 _, RULES = _load_rules()
 
+def _contains_profit_loss(text):
+    """Проверяет, содержит ли сообщение информацию о прибыли/убытке (закрытые сделки)"""
+    if not text:
+        return False
+    
+    text_lower = text.lower()
+    
+    # Сначала проверяем ключевые фразы для закрытых сделок - они имеют приоритет
+    # Ключевые фразы для закрытых сделок с прибылью/убытком
+    profit_loss_keywords = [
+        "сделка закрыта в плюс",
+        "сделка закрыта в минус",
+        "закрыта в плюс",
+        "закрыта в минус",
+    ]
+    
+    # Проверяем наличие ключевых фраз о закрытых сделках
+    for keyword in profit_loss_keywords:
+        if keyword in text_lower:
+            return True
+    
+    # Проверяем паттерн "PNL: +XX.XX%" или "PNL: -XX.XX%" - используется в professionallarge_bot
+    # Это явный признак закрытой сделки с результатом
+    if re.search(r'pnl\s*:\s*[+\-]\s*\d+\.?\d*\s*%', text_lower, re.IGNORECASE):
+        return True
+    
+    # Если нет явных признаков закрытой сделки, проверяем исключения
+    # Исключаем сообщения с настройками/конфигурацией/ошибками
+    exclude_keywords = [
+        "настройки",
+        "settings",
+        "auto-trade",
+        "соединение установлено",
+        "connection established",
+        "кредитное плечо",
+        "leverage",
+        "max сигналов",
+        "max signals",
+        "max открытых сделок",
+        "max open trades",
+        "тип трейда",
+        "trade type",
+        "breakeven",
+        "trailing stop",
+        "api:",
+        "входной ордер",
+        "не исполнен",
+        "не исполнен воврем",
+        "order not executed",
+    ]
+    
+    # Если сообщение содержит слова из исключений, это не закрытая сделка
+    for exclude_kw in exclude_keywords:
+        if exclude_kw in text_lower:
+            return False
+    
+    # Проверяем паттерны результата сделки: "Take profit + % 12.94" или "Stop loss - % 19.15"
+    # Важно: должно быть сочетание "take profit" или "stop loss" с конкретным результатом сделки
+    if re.search(r'take\s+profit\s*[+\-]\s*%\s*\d+', text_lower, re.IGNORECASE):
+        return True
+    if re.search(r'stop\s+loss\s*[+\-]\s*%\s*\d+', text_lower, re.IGNORECASE):
+        return True
+    
+    # Проверяем наличие "Account Balance" вместе с процентами - это признак закрытой сделки
+    if "account balance" in text_lower and re.search(r'[+\-]\s*%\s*\d+\.?\d*', text):
+        return True
+    
+    # Проверяем паттерны "+ %" / "- %" с числами, но только если это не настройки
+    # Добавляем проверку, что это выглядит как результат сделки, а не настройка
+    if re.search(r'[+\-]\s*%\s*\d+\.?\d*', text) and "закрыта" in text_lower:
+        return True
+    
+    return False
+
 def _resolve_input_peer(src):
     if isinstance(src, dict):
         cid = src.get("chat_id")
@@ -54,6 +128,15 @@ async def setup_forwarding(client: TelegramClient, routes, mode="copy"):
         chat_id = ev.chat_id
         
         for r in routes_by_chat.get(chat_id, []):
+            # Проверяем, нужна ли фильтрация для этого маршрута
+            require_profit_loss = r.get("filter_profit_loss", False)
+            
+            if require_profit_loss:
+                text = ev.raw_text or ""
+                if not _contains_profit_loss(text):
+                    print(f"[FORWARDER] Skipped (no profit/loss): {chat_id} → {r['target_chat']}")
+                    continue
+            
             tgt_ent = tgt_entities[r["target_chat"]]
             tid = r.get("thread_id")
             if tid is None:

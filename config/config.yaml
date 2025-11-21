@@ -2,8 +2,8 @@
 
 api_id:       29282645
 api_hash:    "ca1d10d469d10d787e18b256d375cd3e"
-phone_number: "+380504444542"
-session_name: "route_bot"
+phone_number: "+380998473358"
+session_name: "route_bot_7"
 
 features:
   enable_trade_button: false
@@ -80,6 +80,20 @@ routes:
       chat_id:  7910480481
     target_chat: -1002447090280
     thread_id:   253082   # "LISTING DELISTING UNLOCKS"
+
+  - source:
+      username: "@PROFFESSIONALAUTO_BOT"
+      chat_id:  8288538783
+    target_chat: -1002447090280
+    thread_id:   703503  # "PROFFESSIONAL AUTO"
+    filter_profit_loss: true  # Forward only messages with profit/loss information
+
+  - source:
+      username: "@professionallarge_bot"
+      chat_id:  8259952405
+    target_chat: -1002447090280
+    thread_id:   724554  # TODO: указать thread_id для PROFESSIONAL LARGE
+    filter_profit_loss: true  # Forward only messages with profit/loss information (PNL: pattern)
   
   - source:
       chat_id:  -1002214948462
