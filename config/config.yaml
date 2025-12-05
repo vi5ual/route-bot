@@ -96,6 +96,12 @@ routes:
     filter_profit_loss: true  # Forward only messages with profit/loss information (PNL: pattern)
   
   - source:
+      chat_id:  3171748254  # PifSignal channel (real ID from test)
+      access_hash:  8585881106425736565  # Access hash from test
+    target_chat: 3300013586  # Signal group (real ID from test)
+    thread_id:   2  # Thread ID for Signal group
+
+  - source:
       chat_id:  -1002214948462
     access_hash:  -1516467140652115096
     target_chat: -1002686329432
